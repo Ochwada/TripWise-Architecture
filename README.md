@@ -74,7 +74,7 @@ orchestration is done using **Docker Compose**.
 ### Step 1: Clone the Repositories
 
 ```bash 
-
+# Auth service
 git clone https://github.com/Ochwada/TripWise-Pass trippass-service
 
 ```
