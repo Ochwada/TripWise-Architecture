@@ -1,4 +1,5 @@
-# ✈️ TripWise System
+# ✈️ TripWise System - The Architecture
+
 
 *A 3-Week Study & Development Plan (Team of 3–4)*
 
