@@ -1,4 +1,4 @@
-# ✈️ TripWise
+# ✈️ TripWise System
 
 *A 3-Week Study & Development Plan (Team of 3–4)*
 
