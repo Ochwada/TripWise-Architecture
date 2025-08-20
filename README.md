@@ -23,7 +23,7 @@ Each service is independently deployable and communicates over REST APIs. Docker
 orchestration is done using **Docker Compose**.
 
 ## 🎯Target Outcome (Definition of Done)
-By the end of the 3 weeks, TripWise allows:
+ TripWise allows:
 
 - User Authentication — JWT-based login. 
 - Trip Management — create a trip (city + dates) and fetch live weather for that city. 
