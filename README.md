@@ -3,7 +3,7 @@
 
 *A 3-Week Study & Development Plan (Team of 3–4)*
 
-JetCity Journal is a compact roadmap project that merges the best of JetSetGo (trip planning, packing, currency, phrases, 
+TripWise System is a compact roadmap project that merges the best of JetSetGo (trip planning, packing, currency, phrases, 
 weather) and CityTrip Companion (city search, weather, and journaling with photos).
 
 Built for learning and collaboration, the project emphasizes Spring Boot 3, PostgreSQL + MongoDB, JWT/OAuth2, Docker, 
