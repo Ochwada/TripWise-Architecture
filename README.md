@@ -17,7 +17,7 @@ This system consists of 5 microservices:
 | [**Gateway   Service**]( )                                              | Microservice 1 : TripHub     | -        | 9090 | 🧠 Planning    | [** **]()                                     |
 | [**Authentication  Service**](https://github.com/Ochwada/TripWise-Pass) | Microservice 2 : TripPass    | ✗        | 9091 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)     |
 | [**User  Profile Service**]( )                                          | Microservice 3 : TripProfile | -        | 9092 | 🚧 in Progress | [**Reyhan**](https://github.com/reyhanovelek) |
-| [**Planner  Service**]( )                                               | Microservice 4 : TripPlanner | -        | 9093 | 🚧 in Progress | [** **]()                                     |
+| [**Planner  Service**](https://github.com/Jind19/TripWise_Planner)      | Microservice 4 : TripPlanner | -        | 9093 | 🚧 in Progress | [** **]()                                     |
 | [**Weather  Service**]( )                                               | Microservice 5 : TripWeather | -        | 9095 | 🚧 in Progress | [** **]()                                     |
 
 Each service is independently deployable and communicates over REST APIs. Docker is used for containerization and
@@ -76,7 +76,9 @@ orchestration is done using **Docker Compose**.
 
 ```bash 
 # Auth service
-git clone https://github.com/Ochwada/TripWise-Pass trippass-service
+git clone https://github.com/Ochwada/TripWise-Pass.git trippass-service
+
+git clone https://github.com/Jind19/TripWise_Planner.git tripplanner-service
 
 ```
 
