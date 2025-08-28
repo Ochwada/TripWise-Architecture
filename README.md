@@ -12,13 +12,16 @@ and AWS EC2 deployment with CI/CD pipelines via GitHub Actions.
 ## Overview
 This system consists of 5 microservices:
 
-| Microservice                                                            | Role / Service               | Database | Port | Status         | Done By                                       |
-|-------------------------------------------------------------------------|------------------------------|----------|------|----------------|-----------------------------------------------|
-| [**Gateway   Service**]( )                                              | Microservice 1 : TripHub     | -        | 9090 | 🧠 Planning    | [** **]()                                     |
-| [**Authentication  Service**](https://github.com/Ochwada/TripWise-Pass) | Microservice 2 : TripPass    | ✗        | 9091 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)     |
-| [**User  Profile Service**]( )                                          | Microservice 3 : TripProfile | -        | 9092 | 🚧 in Progress | [**Reyhan**](https://github.com/reyhanovelek) |
-| [**Planner  Service**](https://github.com/Jind19/TripWise_Planner)      | Microservice 4 : TripPlanner | -        | 9093 | 🚧 in Progress | [**Ochwada**](https://github.com/Ochwada)     |
-| [**Weather  Service**]( )                                               | Microservice 5 : TripWeather | -        | 9095 | 🚧 in Progress | [** **]()                                     |
+| Microservice                                                                      | Role / Service               | Database | Port | Status         | Done By                                             |
+|-----------------------------------------------------------------------------------|------------------------------|----------|------|----------------|-----------------------------------------------------|
+| [**Gateway   Service**]( )                                                        | Microservice 0 : TripHub     | -        | 9090 | 🧠 Planning    | [** **]()                                           |
+| [**Authentication  Service**](https://github.com/Ochwada/TripWise-Pass)           | Microservice 1 : TripPass    | ✗        | 9091 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)           |
+| [**User  Profile Service**](https://github.com/reyhanovelek/TripProfile-Service)  | Microservice 2 : TripProfile | -        | 9092 | 🚧 in Progress | [**Reyhan**](https://github.com/reyhanovelek)       |
+| [**Itinerary Service**](https://github.com/Jind19/TripWise_Planner)               | Microservice 3 : TripPlanner | -        | 9093 | 🚧 in Progress | [**Prachi**]()                                      |
+| [**Journal / activities  Service**](https://github.com/Ochwada/TripWise-Journal)  | Microservice 4 : TripJournal | -        | 9094 | 🚧 in Progress | [**Ochwada**](https://github.com/Ochwada)           |
+| [**Weather  Service**](https://github.com/OrnellaDelVicario/tripwise_tripweather) | Microservice 5 : TripWeather | -        | 9095 | 🚧 in Progress | [**Ornella**](https://github.com/OrnellaDelVicario) |
+| [**Media   Service**](https://github.com/Ochwada/TripWise-Media)                  | Microservice 6 : Tripmedia   | -        | 9096 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)           |                                    |
+
 
 Each service is independently deployable and communicates over REST APIs. Docker is used for containerization and
 orchestration is done using **Docker Compose**.
@@ -77,9 +80,11 @@ orchestration is done using **Docker Compose**.
 ```bash 
 # Auth service
 git clone https://github.com/Ochwada/TripWise-Pass.git trippass-service
-
+git clone https://github.com/reyhanovelek/TripProfile-Service.git tripprofile-service
 git clone https://github.com/Jind19/TripWise_Planner.git tripplanner-service
-
+git clone https://github.com/Ochwada/TripWise-Journal.git tripjournal-service
+git clone https://github.com/OrnellaDelVicario/tripwise_tripweather.git tripweather-service
+git clone https://github.com/Ochwada/TripWise-Media.git tripmedia-service
 ```
 
 ### Step 2: Environment Variables / Environment Configurations
