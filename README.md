@@ -14,7 +14,7 @@ This system consists of 5 microservices:
 
 | Microservice                                                                      | Role / Service               | Database | Port | Status         | Done By                                             |
 |-----------------------------------------------------------------------------------|------------------------------|----------|------|----------------|-----------------------------------------------------|
-| [**Gateway   Service**]( )                                                        | Microservice 0 : TripHub     | -        | 9090 | 🧠 Planning    | [** **]()                                           |
+| [**Gateway   Service**]( )                                                        | Microservice 0 : TripHub     | -        | 9090 | ***            | [** **]()                                           |
 | [**Authentication  Service**](https://github.com/Ochwada/TripWise-Pass)           | Microservice 1 : TripPass    | ✗        | 9091 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)           |
 | [**User  Profile Service**](https://github.com/reyhanovelek/TripProfile-Service)  | Microservice 2 : TripProfile | -        | 9092 | 🚧 in Progress | [**Reyhan**](https://github.com/reyhanovelek)       |
 | [**Itinerary Service**](https://github.com/Jind19/TripWise_Planner)               | Microservice 3 : TripPlanner | -        | 9093 | 🚧 in Progress | [**Prachi**]()                                      |
