@@ -18,9 +18,9 @@ This system consists of 5 microservices:
 | [**Authentication  Service**](https://github.com/Ochwada/TripWise-Pass)           | Microservice 1 : TripPass    | ✗        | 9091 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)           |
 | [**User  Profile Service**](https://github.com/reyhanovelek/TripProfile-Service)  | Microservice 2 : TripProfile | -        | 9092 | 🚧 in Progress | [**Reyhan**](https://github.com/reyhanovelek)       |
 | [**Itinerary Service**](https://github.com/Jind19/TripWise_Planner)               | Microservice 3 : TripPlanner | -        | 9093 | 🚧 in Progress | [**Prachi**]()                                      |
-| [**Journal / activities  Service**](https://github.com/Ochwada/TripWise-Journal)  | Microservice 4 : TripJournal | -        | 9094 | 🚧 in Progress | [**Ochwada**](https://github.com/Ochwada)           |
+| [**Journal / activities  Service**](https://github.com/Ochwada/TripWise-Journal)  | Microservice 4 : TripJournal | Mongo    | 9094 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)           |
 | [**Weather  Service**](https://github.com/OrnellaDelVicario/tripwise_tripweather) | Microservice 5 : TripWeather | -        | 9095 | 🚧 in Progress | [**Ornella**](https://github.com/OrnellaDelVicario) |
-| [**Media   Service**](https://github.com/Ochwada/TripWise-Media)                  | Microservice 6 : Tripmedia   | -        | 9096 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)           |                                    |
+| [**Media   Service**](https://github.com/Ochwada/TripWise-Media)                  | Microservice 6 : Tripmedia   | Mongo    | 9096 | ✅ Done         | [**Ochwada**](https://github.com/Ochwada)           |                                    |
 
 
 Each service is independently deployable and communicates over REST APIs. Docker is used for containerization and
